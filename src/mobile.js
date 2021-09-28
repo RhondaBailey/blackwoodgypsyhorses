@@ -67,7 +67,6 @@ export const Mobile = (props) => {
                     width="wide"
                     visible={visible}>
                         <Menu.Item onClick={onToggle} name="sidebar" as={NavLink} to="/">Home</Menu.Item>
-                        <Menu.Item onClick={onToggle} name="sidebar" as={NavLink} to="/About">Our Story</Menu.Item>
                         <Dropdown inverted item simple className="right" text='Our Horses'>
                             <Dropdown.Menu>
                                 <Dropdown.Item inverted onClick={onToggle} name="sidebar" as={NavLink} to="/MissMe">Starfire's Imperial Mistress</Dropdown.Item>

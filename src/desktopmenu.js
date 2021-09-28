@@ -12,7 +12,6 @@ const DesktopMenu = () => {
         <Menu fixed='top' inverted>
         <Container>
             <Menu.Item as={NavLink} to="/">Home</Menu.Item>
-            <Menu.Item as={NavLink} to="/About">Our Story</Menu.Item>
             <Dropdown item simple style={{width: '160px'}} text='Our Horses'>
                 <Dropdown.Menu>
                     <Dropdown item simple text='Mares and Fillies'>
