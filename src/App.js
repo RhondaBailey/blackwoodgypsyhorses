@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { useMediaQuery } from 'react-responsive';
+import 'semantic-ui-css/semantic.min.css'
+
+
+import { NavBar } from './mobile';
+import { Desktop } from './desktop';
+
 
 function App() {
+  const isMobileDevice = useMediaQuery({ query: "(max-width: 991px)",});
+  //const isDesktop = useMediaQuery({ query: "(min-device-width: 992px)",});
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      {isMobileDevice ? <NavBar /> : <Desktop />}
+      
+      </>
   );
 }
 

@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html, body {
+  height: 100vh;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: -webkit-fill-available;
+  
+}
+
+body
+	{
+		font-size: 13pt;
+    color: #666;
+    font-family: 'Open Sans', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+	}
+
+	h1
+	{
+		font-size: 3.25em;
+		letter-spacing: -0.025em;
+	}
+
+	h2
+	{
+		font-size: 2em;
+		letter-spacing: -0.015em;
+	}
+	
+	h3
+	{
+		font-size: 1em;
+		letter-spacing: -0.015em;
+	}
+
+  h4
+	{
+		font-size: 1em;
+		letter-spacing: -0.015em;
+	}
+
+  p {
+    font-size: 1.15em;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+.shortContent {
+  height: 100%;
+  min-height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  margin-bottom: -70px;
+}
+
+.sliderContainer {
+  width:  700px;
+  height: 400px;
+  position: relative;
+  padding-top: 30px;
+
+}
+
+.sliderContainerMow { 
+  position: relative;
+  padding-top: 30px;
+}
+
+.horseContent {
+  position: relative;
+  text-align: left;
+  left: 10%; 
+  width: 100%;
+}
+
+.horseContentMow {
+  position: relative;
+  text-align: left;
+}
+
+.horseText {
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
+.horseTextBold {
+  text-align: justify;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+
+.soldText {
+  color: red;
+}
+
+.linkText {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+}
+
+.secondaryNavLinks {
+  color: white;
+  text-decoration: none;
+}
+
+
+.socialText {
+  font-size: 1em;
+  color: darkgray;
+}
+
+.fa-cog {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.copyright {
+  font-size: .75em;
+  color: darkgray;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoContainer {
+  Width: 25%;
+  left: 15%; 
+  transform: translate(-50%, -10%);
+  overflow: 'auto';
+  display: block;
+  z-index: 100;
 }
+
+.logo {
+  border-radius: 50%;
+  width: 325px;
+  align-content: center;
+  position: relative;
+  left: 6em;
+  top: 4em;
+
+}
+
+.logoContainerMow {
+  Width: 50%;
+  position: absolute;
+  left: 25%; 
+  top: 5em;
+  /* transform: translate(-50%, -50%); */
+  overflow: 'auto';
+}
+
+.logoMow {
+  border-radius: 50%;
+  position: relative;
+  left: 2em;
+  top: 2em;
+  margin: -4em 0 4em -4em;
+  width: 250px;
+  align-content: center;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+.breedContent {
+  position: relative;
+  text-align: left;
+  left: 20%; 
+  width: 100%;
+}
+
+.breedContentMow {
+  position: relative;
+  text-align: left;
+}
+
+.homeContent {
+  position: relative;
+  padding-top: 30px;
+  left: 15%;
+}
+
+.homeContentMow {
+  position: relative;
+}
+
+
+
