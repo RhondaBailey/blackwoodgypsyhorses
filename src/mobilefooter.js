@@ -7,12 +7,18 @@ import {
     List,
     Menu,
     Segment,
-  } from 'semantic-ui-react';
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from 'semantic-ui-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 const MobileFooter = () => {
-      return(
-      
+
+    library.add(fab);
+    library.add(fas);  
+    
+    return(
         <Menu inverted style={{justifyContent: 'center'}}>
             <Segment inverted vertical style={{ margin: '2em 0em 0em 0em' }}>
                 <Container textAlign='center'>
@@ -24,21 +30,21 @@ const MobileFooter = () => {
                             <Grid.Column>
                                 <Header inverted as='h4' content='Facebook' />
                                 <List link inverted>
-                                <List.Item class="fa-cog" as='a' href='https://www.facebook.com/blackwoodgypsy'>
-                                <FontAwesomeIcon icon={['fab', 'facebook']} /></List.Item>
+                                    <List.Item class="fa-cog" as='a' href='https://www.facebook.com/blackwoodgypsy'>
+                                    <FontAwesomeIcon icon={['fab', 'facebook']} /></List.Item>
                                 </List>    
                             </Grid.Column>
                             <Grid.Column>
                                 <Header inverted as='h4' content='Twitter' />
                                 <List link inverted>
-                                <List.Item class="fa-cog" as='a' href='https://www.facebook.com/blackwoodgypsy'>
+                                    <List.Item class="fa-cog" as='a' href='https://twitter.com/blackwoodgypsy'>
                                     <FontAwesomeIcon icon={['fab', 'twitter']} /></List.Item>
                                 </List>
                             </Grid.Column>
                             <Grid.Column>
                                 <Header inverted as='h4' content='Instagram' />
                                 <List link inverted>
-                                <List.Item class="fa-cog" as='a' href='https://www.facebook.com/blackwoodgypsy'>
+                                    <List.Item class="fa-cog" as='a' href='https://www.instagram.com/blackwoodgypsy/'>
                                     <FontAwesomeIcon icon={['fab', 'instagram']} /></List.Item>
                                 </List>
                             </Grid.Column>
