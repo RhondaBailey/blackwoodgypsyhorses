@@ -10,6 +10,11 @@ export const novaPhotos = [
       height: 8.208
     },
     {
+      src: "/images/horses/nova7.jpeg",
+      width: 9,
+      height: 8.143
+    },
+    {
       src: "/images/horses/nova5.jpeg",
       width: 14.583,
       height: 9.736
@@ -18,6 +23,11 @@ export const novaPhotos = [
     src: "/images/horses/nova4.jpeg",
     width: 10,
     height: 9.398
+    },
+    {
+      src: "/images/horses/nova6.jpeg",
+      width: 9,
+      height: 6.22
     }
     
   ];

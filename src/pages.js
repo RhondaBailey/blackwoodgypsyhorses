@@ -117,7 +117,7 @@ export function Nova() {
         <section className="horseContent">
             <div className='horseText'> 
                 <h2>HGR Champagne Supernova of Blackwood "Nova"</h2>
-                <p className='horseTextBold'>2017 Smoky Black Filly. Out of The Diamond Mare HGR, by Villa Vanners Taskin.</p>
+                <p className='horseTextBold'>2017 Silver smoky black mare. By Taskin, out of The Diamond Mare HGR.</p>
             </div>
             <BlackwoodPhotos src={novaPhotos} />
             <br />
