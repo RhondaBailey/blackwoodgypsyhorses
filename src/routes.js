@@ -35,12 +35,12 @@ const NavRoutes = () => {
             <Route path="/Mares" element={<Mares />} />
             <Route path="/MissMe" element={<MissMe />} />
             <Route path="/Nova" element={<Nova />} />
-            <Route path="/Bree" element={<Bree />} />
             <Route path="/Effie" element={<Effie />} />
             <Route path="/Kima" element={<Kima />} />
             <Route path="/Geldings" element={<Geldings />} />
             <Route path="/Maestro" element={<Maestro />} />
             <Route path="/Sale" element={<Sale />} />
+            <Route path="/Bree" element={<Bree />} />
             <Route path="/Valkyrie" element={<Valkyrie />} />
             <Route path="/Tumblena" element={<Tumblena />} />
             <Route path="/Max" element={<Max />} />
