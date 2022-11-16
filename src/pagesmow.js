@@ -132,6 +132,7 @@ export function Bree() {
             <div className='horseText'> 
                 <h2>Blackwood's The Strawberry Lass "Bree"</h2>
                 <p className='horseTextBold'>2018 Filly out of Tumblena, by Desert Jewell Viggo.</p>
+                <p>Bree is for sale to a perfect home.  Contact us at the email below for more information. </p>
             </div>
             <BlackwoodPhotos src={breePhotos} />
             <br />

@@ -27,7 +27,11 @@ const MobileMenu = () => {
                             <Dropdown.Item as={NavLink} to="/Maestro">Northstar Maestro</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Dropdown.Item as={NavLink} to="/Sale">Sale Horses</Dropdown.Item>
+                    <Dropdown item simple text='Sale Horses'>
+                        <Dropdown.Menu>
+                    {/* <Dropdown.Item as={NavLink} to="/Sale">Sale Horses</Dropdown.Item> */}
+                        <Dropdown.Item as={NavLink} to="/Bree">Blackwood's The Strawberry Lass</Dropdown.Item>
+                    </Dropdown.Menu>
                     <Dropdown item simple text='Sold Horses'>
                         <Dropdown.Menu>
                             <Dropdown.Item as={NavLink} to="/Valkyrie">Blackwood's Warrior Goddess</Dropdown.Item>

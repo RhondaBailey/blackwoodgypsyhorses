@@ -18,7 +18,7 @@ const DesktopMenu = () => {
                         <Dropdown.Menu>
                             <Dropdown.Item as={NavLink} to="/MissMe">Starfire's Imperial Mistress</Dropdown.Item>
                             <Dropdown.Item as={NavLink} to="/Nova">HGR Champagne Supernova of Blackwood</Dropdown.Item>
-                            <Dropdown.Item as={NavLink} to="/Bree">Blackwood's The Strawberry Lass</Dropdown.Item>
+    
                             <Dropdown.Item as={NavLink} to="/Effie">Blackwood's The Ineffable Game</Dropdown.Item>
                             <Dropdown.Item as={NavLink} to="/Kima">Blackwood's Lady Kima</Dropdown.Item>
                         </Dropdown.Menu>
@@ -28,7 +28,12 @@ const DesktopMenu = () => {
                             <Dropdown.Item as={NavLink} to="/Maestro">Northstar Maestro</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Dropdown.Item as={NavLink} to="/Sale">Sale Horses</Dropdown.Item>
+                    <Dropdown item simple text='Sale Horses'>
+                        <Dropdown.Menu>
+                    {/* <Dropdown.Item as={NavLink} to="/Sale">Sale Horses</Dropdown.Item> */}
+                        <Dropdown.Item as={NavLink} to="/Bree">Blackwood's The Strawberry Lass</Dropdown.Item>
+                    </Dropdown.Menu>
+                    </Dropdown>
                     <Dropdown item simple text='Sold Horses'>
                         <Dropdown.Menu>
                             <Dropdown.Item as={NavLink} to="/Valkyrie">Blackwood's Warrior Goddess</Dropdown.Item>
