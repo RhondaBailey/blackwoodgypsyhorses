@@ -15,9 +15,7 @@ const MobileMenu = () => {
                 <Dropdown.Menu>
                     <Dropdown item simple text='Mares and Fillies'>
                         <Dropdown.Menu>
-                            <Dropdown.Item as={NavLink} to="/MissMe">Starfire's Imperial Mistress</Dropdown.Item>
                             <Dropdown.Item as={NavLink} to="/Nova">HGR Champagne Supernova of Blackwood</Dropdown.Item>
-                            <Dropdown.Item as={NavLink} to="/Bree">Blackwood's The Strawberry Lass</Dropdown.Item>
                             <Dropdown.Item as={NavLink} to="/Effie">Blackwood's The Ineffable Game</Dropdown.Item>
                             <Dropdown.Item as={NavLink} to="/Kima">Blackwood's Lady Kima</Dropdown.Item>
                         </Dropdown.Menu>
@@ -39,7 +37,11 @@ const MobileMenu = () => {
                             <Dropdown.Item as={NavLink} to="/Max">Maximus Roman of Bella Vista</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    
+                    <Dropdown item simple text='Gone but not forgotten'>
+                        <Dropdown.Menu>
+                            <Dropdown.Item as={NavLink} to="/MissMe">Starfire's Imperial Mistress</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                 </Dropdown.Menu>
             </Dropdown>
             <Menu.Item as={NavLink} to="/Breed">About the Breed</Menu.Item>

@@ -98,10 +98,11 @@ export function MissMe() {
     return (
         <section className="horseContent">
             <div className='horseText'> 
-                <h2>Starfire's Imperial Mistress "Miss Me"</h2>
+                <h2>Starfire's Imperial Mistress "Miss Me" (2015-2022)</h2>
                 <p className='horseTextBold'>2015 seal bay tobiano Ee Ata Tt filly. Out of Starfire's Masque, by SD Murphy of Cedar Creek.</p>
                 <p>"Miss Me" is out of Starfire's superstar broodmare, Masque, and by none other than SD Murphy, bringing SD and Lenny lines together in one outstandingly correct, heavy, extremely hairy, and remarkably well-tempered package!</p>
                 <p>This filly was rated 4 Stars by the GVHS as a YEARLING!!</p>
+                
             </div>
             <BlackwoodPhotos src={missMePhotos} />
             <br />
