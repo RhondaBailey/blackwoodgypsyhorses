@@ -30,6 +30,7 @@ const MobileMenu = () => {
                     {/* <Dropdown.Item as={NavLink} to="/Sale">Sale Horses</Dropdown.Item> */}
                         <Dropdown.Item as={NavLink} to="/Bree">Blackwood's The Strawberry Lass</Dropdown.Item>
                     </Dropdown.Menu>
+                    </Dropdown>
                     <Dropdown item simple text='Sold Horses'>
                         <Dropdown.Menu>
                             <Dropdown.Item as={NavLink} to="/Valkyrie">Blackwood's Warrior Goddess</Dropdown.Item>
