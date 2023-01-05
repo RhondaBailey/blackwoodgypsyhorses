@@ -131,8 +131,13 @@ export function Bree() {
         <section className="horseContentMow">
             <div className='horseText'> 
                 <h2>Blackwood's The Strawberry Lass "Bree"</h2>
-                <p className='horseTextBold'>2018 Filly out of Tumblena, by Desert Jewell Viggo.</p>
-                <p>Bree is for sale to a perfect home.  Contact us at the email below for more information. </p>
+                <p className='horseTextBold'>2018 Filly out of Tumblena (Tumbleweed), by Desert Jewell Viggo (Lenny's Horse).</p>
+                <p>Bree is a superb filly, with the complete package, from conformation, to hair, to personality and is for sale to a perfect home. She has been shown in hand as a yearing, loads and trailers like a pro, clips, ties, bathes, stands for farrier, and more!</p>
+                <p>In training at Starfire Training Center. </p> 
+                <p>Both parents are rated FIVE STARS By the GVHS, and her sire is a multi-Supreme Champion.</p>
+                <p>GVHS registered</p>
+                <p>Color DNA: ee nT nSW1</p>
+                <p>Contact us at the email below for more information. </p>
             </div>
             <BlackwoodPhotos src={breePhotos} />
             <br />
