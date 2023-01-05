@@ -60,7 +60,7 @@ const MobileFooter = () => {
                     <Divider inverted section />
                     <List horizontal  size='small' >
                         <List.Item>
-                            © 2021 Blackwood Gypsy Horses. All rights reserved.
+                            © 2022 Blackwood Gypsy Horses. All rights reserved.
                         </List.Item>
                     </List>
                 </Container>
