@@ -276,8 +276,7 @@ export function Contact() {
     return (
         <div  className="homeContent">
             <h2>How to contact us</h2>
-            <h4>Email Tori: tori@blackwoodgypsy.com</h4>
-            <h4>Email Rhonda: rhonda@blackwoodgypsy.com</h4>
+            <h4>Email: blackwoodgypsies@gmail.com</h4>
             <h4>Phone: 425-785-0406</h4>
             
         </div>

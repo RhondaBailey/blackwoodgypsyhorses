@@ -51,7 +51,7 @@ const DesktopFooter = () => {
                         <Grid.Column>
                             <Header inverted as='h4' content='Email' />
                             <List link inverted>
-                                <List.Item class="fa-cog" as='a' href='tori@blackwoodgypsy.com'>
+                                <List.Item class="fa-cog" as='a' href='mailto: blackwoodgypsies@gmail.com'>
                                 <FontAwesomeIcon icon={['fas', 'envelope']} /> </List.Item>
                             </List>
                         </Grid.Column>
